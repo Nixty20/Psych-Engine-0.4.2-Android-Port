@@ -1,0 +1,10 @@
+{
+	"image": "FLIPPY_menu",
+	"scale": 0.55,
+	"idle_anim": "FLIPPY Idle",
+	"confirm_anim": "FLIPPY Idle",
+	"position": [
+		180,
+		110
+	]
+}
