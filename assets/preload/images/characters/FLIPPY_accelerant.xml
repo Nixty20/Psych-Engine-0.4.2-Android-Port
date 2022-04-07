@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FLIPPY_accelerant.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<!-- Idle -->
+	<SubTexture name="FLIPPY Idle0000" x="0" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0001" x="0" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0002" x="273" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0003" x="273" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0004" x="546" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0005" x="546" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0006" x="819" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0007" x="819" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0008" x="1092" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0009" x="1092" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0010" x="1092" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0011" x="1092" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0012" x="1092" y="0" width="273" height="295"/>
+	<SubTexture name="FLIPPY Idle0013" x="1092" y="0" width="273" height="295"/>
+	<!-- DOWN -->
+	<SubTexture name="FLP M DOWN0000" x="1365" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0001" x="1365" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0002" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0003" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0004" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0005" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0006" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0007" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0008" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0009" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0010" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0011" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0012" x="1653" y="0" width="288" height="222"/>
+	<SubTexture name="FLP M DOWN0013" x="1653" y="0" width="288" height="222"/>
+	<!-- LEFT -->
+	<SubTexture name="FLP M LEFT0000" x="0" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0001" x="0" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0002" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0003" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0004" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0005" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0006" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0007" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0008" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0009" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0010" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0011" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0012" x="291" y="296" width="291" height="341"/>
+	<SubTexture name="FLP M LEFT0013" x="291" y="296" width="291" height="341"/>
+	<!-- RIGHT -->
+	<SubTexture name="FLP M RIGHT0000" x="582" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0001" x="907" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0002" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0003" x="1558" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0004" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0005" x="1558" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0006" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0007" x="1558" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0008" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0009" x="1558" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0010" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0011" x="1558" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0012" x="1233" y="296" width="325" height="305"/>
+	<SubTexture name="FLP M RIGHT0013" x="1558" y="296" width="325" height="305"/>
+	<!-- UP -->
+	<SubTexture name="FLP M UP0000" x="0" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0001" x="0" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0002" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0003" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0004" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0005" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0006" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0007" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0008" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0009" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0010" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0011" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0012" x="314" y="638" width="314" height="335"/>
+	<SubTexture name="FLP M UP0013" x="314" y="638" width="314" height="335"/>
+	<!-- LEFT Shoot -->
+	<SubTexture name="FLIPPY LEFT Shoot0000" x="0" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0001" x="0" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0002" x="460" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0003" x="920" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0004" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0005" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0006" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0007" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0008" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0009" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0010" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0011" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0012" x="1380" y="1025" width="460" height="322"/>
+	<SubTexture name="FLIPPY LEFT Shoot0013" x="1380" y="1025" width="460" height="322"/>
+	<!-- DOWN Shoot -->
+	<SubTexture name="FLIPPY DOWN Shoot0000" x="1840" y="1025" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0001" x="1840" y="1025" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0002" x="0" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0003" x="495" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0004" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0005" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0006" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0007" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0008" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0009" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0010" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0011" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0012" x="990" y="1347" width="495" height="278"/>
+	<SubTexture name="FLIPPY DOWN Shoot0013" x="990" y="1347" width="495" height="278"/>
+	<!-- UP Shoot -->
+	<SubTexture name="FLIPPY UP Shoot0000" x="2970" y="1347" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0001" x="2970" y="1347" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0002" x="1984" y="1347" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0003" x="0" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0004" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0005" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0006" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0007" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0008" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0009" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0010" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0011" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0012" x="499" y="1685" width="499" height="337"/>
+	<SubTexture name="FLIPPY UP Shoot0013" x="499" y="1685" width="499" height="337"/>
+	<!-- RIGHT Shoot -->
+	<SubTexture name="FLIPPY RIGHT Shoot0000" x="999" y="1685" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0001" x="999" y="1685" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0002" x="1454" y="1685" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0003" x="1910" y="1685" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0004" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0005" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0006" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0007" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0008" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0009" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0010" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0011" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0012" x="0" y="2022" width="455" height="291"/>
+	<SubTexture name="FLIPPY RIGHT Shoot0013" x="0" y="2022" width="455" height="291"/>
+	<!-- Shoot Idle -->
+	<SubTexture name="FLIPPY Shoot Idle0000" x="455" y="2022" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0001" x="895" y="2022" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0002" x="1335" y="2022" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0003" x="1775" y="2022" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0004" x="0" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0005" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0006" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0007" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0008" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0009" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0010" x="440" y="2499" width="440" height="476"/>
+	<SubTexture name="FLIPPY Shoot Idle0011" x="440" y="2499" width="440" height="476"/>
+	<!-- Alt Idle -->
+	<SubTexture name="FLIPPY Alt Idle0000" x="880" y="2499" width="316" height="307"/>
+	<SubTexture name="FLIPPY Alt Idle0001" x="1196" y="2499" width="316" height="307"/>
+	<SubTexture name="FLIPPY Alt Idle0002" x="880" y="2499" width="316" height="307"/>
+	<SubTexture name="FLIPPY Alt Idle0003" x="1196" y="2499" width="316" height="307"/>
+	<!-- Scream right -->
+	<SubTexture name="FLIPPY Scream right0000" x="3026" y="2499" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0001" x="0" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0002" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0003" x="656" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0004" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0005" x="656" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0006" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0007" x="656" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0008" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0009" x="656" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0010" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0011" x="656" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0012" x="328" y="2975" width="328" height="307"/>
+	<SubTexture name="FLIPPY Scream right0013" x="656" y="2975" width="328" height="307"/>
+</TextureAtlas>
