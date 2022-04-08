@@ -176,6 +176,7 @@ class PlayState extends MusicBeatState
 
 	var botplaySine:Float = 0;
 	var botplayTxt:FlxText;
+	private var creditTxt:FlxText;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -900,15 +901,7 @@ class PlayState extends MusicBeatState
 		iconP2.visible = !ClientPrefs.hideHud;
 		add(iconP2);
 		reloadHealthBarColors();
-        
-        var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("PORT BY JOÃO"), 24);
-        creditTxt.scrollFactor.set();
-        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        creditTxt.borderColor = FlxColor.BLACK;
-        creditTxt.borderSize = 3;
-        creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
-        add(creditTxt);
-        
+
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
@@ -925,6 +918,20 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.downScroll) {
 			botplayTxt.y = timeBarBG.y - 78;
 		}
+		
+		creditTxt = new FlxText(876, 648, 348);
+        creditTxt.text = "PORTED BY/nJOÃO OTIMIZAÇÕES";
+        creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+        creditTxt.scrollFactor.set();
+        add(creditTxt);
+
+		if(ClientPrefs.downScroll) {
+			botplayTxt.y = timeBarBG.y - 78;
+		}
+
+		if(ClientPrefs.downScroll) {
+			creditTxt.y = 148;
+		}
 
 		strumLineNotes.cameras = [camHUD];
 		grpNoteSplashes.cameras = [camHUD];
@@ -935,6 +942,7 @@ class PlayState extends MusicBeatState
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
 		botplayTxt.cameras = [camHUD];
+		creditTxt.cameras = [camHUD];
 		timeBar.cameras = [camHUD];
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
@@ -1128,30 +1136,36 @@ class PlayState extends MusicBeatState
 
 	public function startVideo(name:String):Void {
 		var foundFile:Bool = false;
-		var fileName = name;
-		if(OpenFlAssets.exists("assets/videos/" + fileName + ".webm")) 
+		var fileName:String = Paths.video(name);
+
+		if(OpenFlAssets.exists(fileName)) 
 		{
 			foundFile = true;
 		}
 
-		if(foundFile) 
+		if(foundFile) {
+			inCutscene = true;
+			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+			bg.scrollFactor.set();
+			bg.cameras = [camHUD];
+			add(bg);
+
+			(new FlxVideo(fileName)).finishCallback = function() {
+				remove(bg);
+                                if(endingSong) 
+			        {
+				        endSong();
+			        } 
+			        else 
+			        {
+				        startCountdown();
+			        }
+			}
+			return;
+		}
+		else
 		{
-            var video = new WebmPlayerS(fileName, true);
-            video.endcallback = () -> {
-                remove(video);
-                if(endingSong) {
-                    endSong();
-                } else {
-                    startCountdown();
-                }
-            }
-            video.setGraphicSize(FlxG.width);
-            video.updateHitbox();
-            add(video);
-            video.play();
-		} 
-		else 
-		{
+			FlxG.log.warn('Couldnt find video file: ' + fileName);
 			if(endingSong) 
 			{
 				endSong();
